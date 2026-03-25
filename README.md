@@ -89,6 +89,49 @@ The API will be running at `http://localhost:3000`
 
 ---
 
+## How to Test the API (Deployed)
+
+Your API is live at: https://user-management-rest-api-n8r0.onrender.com
+
+### 1. Using a Browser (GET requests only)
+- List users: https://user-management-rest-api-n8r0.onrender.com/users
+- Get user by ID: https://user-management-rest-api-n8r0.onrender.com/users/1
+
+### 2. Using Postman (Recommended)
+- Set the method (GET, POST, PUT, DELETE)
+- Enter the URL (e.g., https://user-management-rest-api-n8r0.onrender.com/users)
+- For POST/PUT, go to the Body tab, select "raw" and "JSON", and enter your data:
+  ```json
+  {
+    "name": "Test User",
+    "email": "test@example.com"
+  }
+  ```
+
+### 3. Using curl (Command Line)
+- List users:
+  ```sh
+  curl https://user-management-rest-api-n8r0.onrender.com/users
+  ```
+- Get user by ID:
+  ```sh
+  curl https://user-management-rest-api-n8r0.onrender.com/users/1
+  ```
+- Create user:
+  ```sh
+  curl -X POST https://user-management-rest-api-n8r0.onrender.com/users -H "Content-Type: application/json" -d "{\"name\":\"Amit\",\"email\":\"amit@example.com\"}"
+  ```
+- Update user:
+  ```sh
+  curl -X PUT https://user-management-rest-api-n8r0.onrender.com/users/1 -H "Content-Type: application/json" -d "{\"name\":\"Updated Name\"}"
+  ```
+- Delete user:
+  ```sh
+  curl -X DELETE https://user-management-rest-api-n8r0.onrender.com/users/1
+  ```
+
+---
+
 ## Notes
 - All data is stored in `users.json`. Changes persist as long as the file is not deleted or overwritten.
 - On most cloud platforms, file storage is not persistent. For production, use a real database.

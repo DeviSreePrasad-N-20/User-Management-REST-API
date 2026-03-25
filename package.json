@@ -2,7 +2,7 @@
   "name": "user-management-rest-api",
   "version": "1.0.0",
   "description": "A simple User Management REST API using Node.js and Express with in-memory storage.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },

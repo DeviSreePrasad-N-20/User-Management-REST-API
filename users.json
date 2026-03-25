@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Prasad",
+    "email": "prasad@example.com"
+  },
+  {
+    "id": 2,
+    "name": "Updated Name",
+    "email": "ravi@example.com"
+  },
+  {
+    "id": 3,
+    "name": "Amit",
+    "email": "amit@example.com"
+  },
+  {
+    "id": 4,
+    "name": "Sneha",
+    "email": "sneha@example.com"
+  },
+  {
+    "id": 5,
+    "name": "Priya",
+    "email": "priya@example.com"
+  },
+  {
+    "id": 6,
+    "name": "Vikas",
+    "email": "vikas@example.com"
+  },
+  {
+    "id": 7,
+    "name": "Anjali",
+    "email": "anjali@example.com"
+  },
+  {
+    "id": 8,
+    "name": "Rahul",
+    "email": "rahul@example.com"
+  },
+  {
+    "id": 9,
+    "name": "Neha",
+    "email": "neha@example.com"
+  },
+  {
+    "id": 10,
+    "name": "Suresh",
+    "email": "suresh@example.com"
+  },
+  {
+    "id": 11,
+    "name": "Kiran",
+    "email": "kiran@example.com"
+  },
+  {
+    "id": 12,
+    "name": "Deepak",
+    "email": "deepak@example.com"
+  },
+  {
+    "id": 13,
+    "name": "Meena",
+    "email": "meena@example.com"
+  },
+  {
+    "id": 14,
+    "name": "Sunil",
+    "email": "sunil@example.com"
+  },
+  {
+    "id": 15,
+    "name": "Geeta",
+    "email": "geeta@example.com"
+  },
+  {
+    "id": 16,
+    "name": "Manoj",
+    "email": "manoj@example.com"
+  },
+  {
+    "id": 17,
+    "name": "Divya",
+    "email": "divya@example.com"
+  },
+  {
+    "id": 18,
+    "name": "Arjun",
+    "email": "arjun@example.com"
+  },
+  {
+    "id": 19,
+    "name": "Komal",
+    "email": "komal@example.com"
+  },
+  {
+    "id": 20,
+    "name": "Nitin",
+    "email": "nitin@example.com"
+  }
+]
